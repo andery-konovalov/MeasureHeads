@@ -698,161 +698,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="mbed-rlcq">
-<packages>
-<package name="0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-</package>
-<package name="0603">
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-</package>
-<package name="0805">
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.889" y="1.016" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-0.889" y="-2.286" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-</package>
-<package name="0.25W">
-<wire x1="-3.302" y1="1.27" x2="-3.302" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.302" y1="-1.27" x2="3.302" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.302" y1="-1.27" x2="3.302" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.302" y1="1.27" x2="-3.302" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="0" x2="-3.302" y2="0" width="0.127" layer="27"/>
-<wire x1="3.81" y1="0" x2="3.302" y2="0" width="0.127" layer="27"/>
-<pad name="P$1" x="-4.318" y="0" drill="0.8"/>
-<pad name="P$2" x="4.318" y="0" drill="0.8"/>
-<text x="-3.81" y="1.524" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="0.125W">
-<wire x1="-2.032" y1="0.762" x2="-2.032" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-0.762" x2="2.032" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-0.762" x2="2.032" y2="0.762" width="0.127" layer="21"/>
-<wire x1="2.032" y1="0.762" x2="-2.032" y2="0.762" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="0" x2="-2.54" y2="0" width="0.127" layer="27"/>
-<wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.127" layer="27"/>
-<pad name="P$1" x="-3.302" y="0" drill="0.8"/>
-<pad name="P$2" x="3.302" y="0" drill="0.8"/>
-<text x="-1.778" y="1.016" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-1.778" size="0.8128" layer="27">&gt;VALUE</text>
-</package>
-<package name="3W_WIREWOUND">
-<wire x1="-8.255" y1="3.175" x2="-8.255" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="-8.255" y1="-3.175" x2="8.255" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="8.255" y1="-3.175" x2="8.255" y2="3.175" width="0.127" layer="21"/>
-<wire x1="8.255" y1="3.175" x2="-8.255" y2="3.175" width="0.127" layer="21"/>
-<pad name="P$1" x="-9.525" y="0" drill="0.9" diameter="1.778"/>
-<pad name="P$2" x="9.525" y="0" drill="0.9" diameter="1.778"/>
-<text x="-8.255" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-8.255" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="R">
-<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="-1.016" x2="-2.54" y2="-1.016" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.4064" layer="94"/>
-<text x="-2.286" y="1.524" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="P$1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="R" prefix="R" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0402" package="0402">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="0603">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="0805">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0.25W" package="0.25W">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0.125W" package="0.125W">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3W-WW" package="3W_WIREWOUND">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Capacitors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -1173,16 +1018,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="10" x="5.08" y="2.5" dx="3.2" dy="1.27" layer="1" rot="R90"/>
 <text x="7.62" y="-1.905" size="0.8128" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="8.636" y="-1.905" size="0.8128" layer="27" font="vector" rot="R90">&gt;VAL</text>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-5.334" y1="-1.524" x2="-4.826" y2="-1.016" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="-5.334" y1="1.016" x2="-4.826" y2="1.524" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
-<rectangle x1="4.826" y1="1.016" x2="5.334" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<pad name="P$1" x="-5.08" y="1.27" drill="0.8" rot="R180"/>
+<pad name="P$2" x="-2.54" y="1.27" drill="0.8" rot="R180"/>
+<pad name="P$3" x="0" y="1.27" drill="0.8" rot="R180"/>
+<pad name="P$4" x="2.54" y="1.27" drill="0.8" rot="R180"/>
+<pad name="P$5" x="5.08" y="1.27" drill="0.8" rot="R180"/>
+<pad name="P$6" x="5.08" y="-1.27" drill="0.8" rot="R180"/>
+<pad name="P$7" x="2.54" y="-1.27" drill="0.8" rot="R180"/>
+<pad name="P$8" x="0" y="-1.27" drill="0.8" rot="R180"/>
+<pad name="P$9" x="-2.54" y="-1.27" drill="0.8" rot="R180"/>
+<pad name="P$10" x="-5.08" y="-1.27" drill="0.8" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -2247,8 +2092,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="U$1" library="SparkFun-RF" deviceset="BLUETOOTH-RN41" device="&quot;"/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA128" device="-SMD"/>
 <part name="GND1" library="mbed-power" deviceset="GND" device=""/>
-<part name="R1" library="mbed-rlcq" deviceset="R" device="0.125W"/>
-<part name="R2" library="mbed-rlcq" deviceset="R" device="0.125W"/>
 <part name="GND3" library="mbed-power" deviceset="GND" device=""/>
 <part name="GND4" library="mbed-power" deviceset="GND" device=""/>
 <part name="GND5" library="mbed-power" deviceset="GND" device=""/>
@@ -2275,6 +2118,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(1206)" device="" value="0.1uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(1206)" device="" value="10pF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(1206)" device="" value="10pF"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="1.8k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="1.8k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2285,8 +2130,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="U$1" gate="G$1" x="30.48" y="45.72"/>
 <instance part="U1" gate="G$1" x="177.8" y="71.12"/>
 <instance part="GND1" gate="1" x="55.88" y="12.7"/>
-<instance part="R1" gate="G$1" x="81.28" y="50.8"/>
-<instance part="R2" gate="G$1" x="81.28" y="33.02"/>
 <instance part="GND3" gate="1" x="205.74" y="7.62"/>
 <instance part="GND4" gate="1" x="134.62" y="91.44"/>
 <instance part="GND5" gate="1" x="144.78" y="91.44"/>
@@ -2313,6 +2156,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <instance part="C3" gate="G$1" x="144.78" y="96.52"/>
 <instance part="C9" gate="G$1" x="236.22" y="86.36" rot="R90"/>
 <instance part="C10" gate="G$1" x="236.22" y="96.52" rot="R90"/>
+<instance part="R1" gate="G$1" x="81.28" y="50.8" rot="R180"/>
+<instance part="R2" gate="G$1" x="81.28" y="33.02" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2447,22 +2292,22 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <net name="LED1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIO5"/>
-<pinref part="R1" gate="G$1" pin="P$1"/>
 <wire x1="76.2" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="P$2"/>
 <wire x1="86.36" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="P$2"/>
 <wire x1="88.9" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -2470,8 +2315,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pinref part="U$1" gate="G$1" pin="PIO8"/>
 <wire x1="50.8" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="43.18" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="P$1"/>
 <wire x1="53.34" y1="33.02" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -2529,7 +2374,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="137.16" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="RESET" class="0">
 <segment>
 <pinref part="S1" gate="S" pin="4"/>
 <wire x1="149.86" y1="111.76" x2="152.4" y2="111.76" width="0.1524" layer="91"/>
