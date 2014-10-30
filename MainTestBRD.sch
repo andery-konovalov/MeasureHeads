@@ -2625,6 +2625,9 @@ Based on the following sources:&lt;p&gt;
 <part name="AGND2" library="mbed-power" deviceset="AGND" device=""/>
 <part name="GND1" library="mbed-power" deviceset="GND" device=""/>
 <part name="JP2" library="atmel" deviceset="AVR-JTAG-10" device=""/>
+<part name="LED3" library="SparkFun-LED" deviceset="LED" device="1206"/>
+<part name="GND6" library="mbed-power" deviceset="GND" device=""/>
+<part name="R5" library="SparkFun-Resistors" deviceset="1.8KOHM1/10W1%(0603)" device="" value="1.8k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2667,6 +2670,9 @@ Based on the following sources:&lt;p&gt;
 <instance part="AGND2" gate="VR1" x="55.88" y="10.16"/>
 <instance part="GND1" gate="1" x="-55.88" y="96.52"/>
 <instance part="JP2" gate="G$1" x="121.92" y="48.26"/>
+<instance part="LED3" gate="G$1" x="83.82" y="121.92" rot="R180"/>
+<instance part="GND6" gate="1" x="83.82" y="137.16" rot="R180"/>
+<instance part="R5" gate="G$1" x="83.82" y="132.08" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2764,6 +2770,10 @@ Based on the following sources:&lt;p&gt;
 <pinref part="IC1" gate="G$1" pin="GND@2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-55.88" y1="96.52" x2="-55.88" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -2872,7 +2882,8 @@ Based on the following sources:&lt;p&gt;
 <segment>
 <wire x1="-73.66" y1="116.84" x2="-73.66" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="111.76" x2="-71.12" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="116.84" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="104.14" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
@@ -2908,6 +2919,9 @@ Based on the following sources:&lt;p&gt;
 <wire x1="132.08" y1="53.34" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 <junction x="101.6" y="116.84"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="83.82" y1="119.38" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<junction x="83.82" y="116.84"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -3100,6 +3114,12 @@ Based on the following sources:&lt;p&gt;
 <wire x1="154.94" y1="53.34" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PF7"/>
 <wire x1="154.94" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
