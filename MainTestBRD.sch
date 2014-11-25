@@ -3619,6 +3619,17 @@ Based on the following sources:&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-58.42,99.06,IC1,GND,AGND,,,"/>
+<approved hash="104,1,-71.12,109.22,IC1,IN,VCC,,,"/>
+<approved hash="104,1,-43.18,109.22,IC1,OUT,VDD,,,"/>
+<approved hash="113,1,144.78,116.451,S1,,,,,"/>
+<approved hash="113,1,82.55,50.4783,LED1,,,,,"/>
+<approved hash="113,1,82.55,32.6983,LED2,,,,,"/>
+<approved hash="113,1,-12.7,73.2705,S2,,,,,"/>
+<approved hash="113,1,226.801,91.44,Y1,,,,,"/>
+<approved hash="113,1,83.4983,123.19,LED3,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
